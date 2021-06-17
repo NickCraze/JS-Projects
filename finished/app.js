@@ -7,7 +7,7 @@ btn.addEventListener("click", function () {
   // console.log(randomNumber);
 
   document.body.style.backgroundColor = colors[randomNumber];
-  color.textContent = colors[randomNumber];
+  color.innerText = colors[randomNumber];// can use innerText or textContent
 });
 
 function getRandomNumber() {
